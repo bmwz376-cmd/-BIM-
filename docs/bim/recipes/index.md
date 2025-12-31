@@ -110,7 +110,7 @@ graph TD
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="structure-check/" class="md-button md-button--primary">
+  <a href="../structure-check/" class="md-button md-button--primary">
     躯体図チェックから始める →
   </a>
 </div>

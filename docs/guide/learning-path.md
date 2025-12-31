@@ -192,7 +192,7 @@ BIMは道具に過ぎません。施工図の理解が最優先です。
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="../shop-drawing/index/" class="md-button md-button--primary">
+  <a href="../../shop-drawing/" class="md-button md-button--primary">
     まずは施工図の基礎から始める →
   </a>
 </div>
