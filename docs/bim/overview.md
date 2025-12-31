@@ -145,7 +145,7 @@ BIMモデルの詳細度レベル：
 ## 🔗 次のステップ
 
 <div class="learning-route-grid">
-  <div class="route-card" onclick="location.href='recipes/'">
+  <div class="route-card" onclick="location.href='../bim/recipes/'">
     <h3>BIM活用レシピ</h3>
     <p>具体的な活用方法を実践的に学ぶ</p>
   </div>
