@@ -193,7 +193,7 @@ A: Yes, but shop drawings should be created first, then modeled in BIM. Creating
 Learned the BIM overview? Choose your next step:
 
 <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-  <button onclick="location.href='../../bim/recipes/'" class="md-button md-button--primary">
+  <button onclick="location.href='../recipes/'" class="md-button md-button--primary">
     Learn Practical Applications
   </button>
   <button onclick="location.href='../../ng/'" class="md-button">

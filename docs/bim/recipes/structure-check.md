@@ -179,5 +179,5 @@ BIMソフトの干渉チェック機能を使用：
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="../sleeve-check/" class="md-button">次のレシピ: スリーブチェック →</a>
+  <a href="sleeve-check/" class="md-button">次のレシピ: スリーブチェック →</a>
 </div>
