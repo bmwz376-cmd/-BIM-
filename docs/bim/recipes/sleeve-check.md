@@ -33,7 +33,7 @@ tags:
 ## 📸 図解
 
 <div class="image-zoom">
-  <img src="../../assets/images/pdfs/施工BIM③/page_011.png" alt="スリーブチェックの例">
+  <img src="../../assets/images/pdfs/施工BIM③/page_008.png" alt="スリーブチェックの例">
   <p class="caption">図1: BIMモデルでのスリーブと構造の干渉チェック</p>
 </div>
 
