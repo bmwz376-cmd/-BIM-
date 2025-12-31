@@ -59,6 +59,42 @@ plugins:
       lang:
         - ja
         - en
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: ja
+          default: true
+          name: 日本語
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            ホーム: Home
+            学習ガイド: Learning Guide
+            学習パス: Learning Path
+            施工図の基礎: Shop Drawing Basics
+            概要: Overview
+            施工図用語集: Terminology (50 Terms)
+            図面の読み方: How to Read Drawings
+            施工図の種類: Types of Shop Drawings
+            施工BIM: Construction BIM
+            全体像: Overview
+            BIM活用レシピ: BIM Recipes
+            レシピ一覧: Recipe List
+            躯体図チェック: Structure Check
+            スリーブチェック: Sleeve Check
+            鉄筋納まりチェック: Rebar Coordination
+            鉄骨二次部材チェック: Steel Secondary Members
+            設備配管ルート検討: MEP Routing
+            仮設計画検討: Temporary Planning
+            NG事例集: Failure Cases
+            よくある失敗事例: Common Mistakes
+            用語集: Glossary
+            講師用: For Instructors
   - tags
 
 # Extensions
@@ -120,12 +156,21 @@ nav:
       - 学習パス: guide/learning-path.md
   - 施工図の基礎:
       - 概要: shop-drawing/index.md
+      - 施工図用語集: shop-drawing/terminology.md
+      - 図面の読み方: shop-drawing/reading.md
+      - 施工図の種類: shop-drawing/types.md
   - 施工BIM:
       - 全体像: bim/overview.md
       - BIM活用レシピ:
           - レシピ一覧: bim/recipes/index.md
           - 躯体図チェック: bim/recipes/structure-check.md
           - スリーブチェック: bim/recipes/sleeve-check.md
-  - NG事例集: ng/index.md
+          - 鉄筋納まりチェック: bim/recipes/rebar-coordination.md
+          - 鉄骨二次部材チェック: bim/recipes/steel-secondary.md
+          - 設備配管ルート検討: bim/recipes/mep-routing.md
+          - 仮設計画検討: bim/recipes/temp-planning.md
+  - NG事例集:
+      - 概要: ng/index.md
+      - よくある失敗事例: ng/common-mistakes.md
   - 用語集: glossary/index.md
   - 講師用: instructor/guide.md

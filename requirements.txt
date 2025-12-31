@@ -1,6 +1,7 @@
 # Core MkDocs
 mkdocs>=1.5.3
 mkdocs-material>=9.5.3
+mkdocs-static-i18n>=1.2.0
 
 # PDF Processing
 PyMuPDF>=1.23.8
