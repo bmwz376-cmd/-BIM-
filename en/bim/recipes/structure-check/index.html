@@ -1,46 +1,46 @@
 
 <!doctype html>
-<html lang="ja" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="施工BIMに関する重要用語の日本語・英語対訳集">
+        <meta name="description" content="Structural interference check using BIM models">
       
       
         <meta name="author" content="BIM Education Team">
       
       
-        <link rel="canonical" href="https://bmwz376-cmd.github.io/-BIM-/glossary/">
+        <link rel="canonical" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/structure-check/">
       
       
-        <link rel="prev" href="../ng/common-mistakes/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../instructor/guide/">
+        <link rel="next" href="../sleeve-check/">
       
       
         
-          <link rel="alternate" href="./" hreflang="ja">
+          <link rel="alternate" href="../../../../bim/recipes/structure-check/" hreflang="ja">
         
-          <link rel="alternate" href="../en/glossary/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>用語集 - 施工BIM用語（日本語・英語） - 施工BIM教材サイト - Construction BIM Learning Platform</title>
+        <title>Structure Check - BIM Recipe - 施工BIM教材サイト - Construction BIM Learning Platform</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
   
@@ -69,11 +69,11 @@
       
     
     
-      <link rel="stylesheet" href="../assets/css/custom.css">
+      <link rel="stylesheet" href="../../../../assets/css/custom.css">
     
-      <link rel="stylesheet" href="../assets/css/image-zoom.css">
+      <link rel="stylesheet" href="../../../../assets/css/image-zoom.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -98,8 +98,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
-          コンテンツにスキップ
+        <a href="#structure-check-bim-recipe" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -113,8 +113,8 @@
   
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
-    <a href=".." title="施工BIM教材サイト - Construction BIM Learning Platform" class="md-header__button md-logo" aria-label="施工BIM教材サイト - Construction BIM Learning Platform" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../" title="施工BIM教材サイト - Construction BIM Learning Platform" class="md-header__button md-logo" aria-label="施工BIM教材サイト - Construction BIM Learning Platform" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -134,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              用語集 - 施工BIM用語（日本語・英語）
+              Structure Check - BIM Recipe
             
           </span>
         </div>
@@ -174,20 +174,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="言語切り替え">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="ja" class="md-select__link">
+            <a href="../../../../bim/recipes/structure-check/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../en/glossary/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -208,16 +208,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="検索">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -230,7 +230,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            検索を初期化
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -242,7 +242,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/bmwz376-cmd/-BIM-" title="リポジトリへ" class="md-source" data-md-component="source">
+        <a href="https://github.com/bmwz376-cmd/-BIM-" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -257,7 +257,7 @@
   
     
       
-<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -267,13 +267,13 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../../../" class="md-tabs__link">
         
   
   
     
   
-  ホーム
+  Home
 
       </a>
     </li>
@@ -288,11 +288,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../guide/learning-path/" class="md-tabs__link">
+        <a href="../../../guide/learning-path/" class="md-tabs__link">
           
   
   
-  学習ガイド
+  Learning Guide
 
         </a>
       </li>
@@ -308,11 +308,33 @@
     
     
       <li class="md-tabs__item">
-        <a href="../shop-drawing/" class="md-tabs__link">
+        <a href="../../../shop-drawing/" class="md-tabs__link">
           
   
   
-  施工図の基礎
+  Shop Drawing Basics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+  
+  Construction BIM
 
         </a>
       </li>
@@ -328,11 +350,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../bim/overview/" class="md-tabs__link">
+        <a href="../../../ng/" class="md-tabs__link">
           
   
   
-  施工BIM
+  Failure Cases
 
         </a>
       </li>
@@ -345,36 +367,14 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="../ng/" class="md-tabs__link">
-          
-  
-  
-  NG事例集
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../../glossary/" class="md-tabs__link">
         
   
   
     
   
-  用語集
+  Glossary
 
       </a>
     </li>
@@ -387,13 +387,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../instructor/guide/" class="md-tabs__link">
+      <a href="../../../instructor/guide/" class="md-tabs__link">
         
   
   
     
   
-  講師用
+  For Instructors
 
       </a>
     </li>
@@ -426,9 +426,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="施工BIM教材サイト - Construction BIM Learning Platform" class="md-nav__button md-logo" aria-label="施工BIM教材サイト - Construction BIM Learning Platform" data-md-component="logo">
+    <a href="../../../" title="施工BIM教材サイト - Construction BIM Learning Platform" class="md-nav__button md-logo" aria-label="施工BIM教材サイト - Construction BIM Learning Platform" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -438,7 +438,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/bmwz376-cmd/-BIM-" title="リポジトリへ" class="md-source" data-md-component="source">
+      <a href="https://github.com/bmwz376-cmd/-BIM-" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -458,14 +458,14 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ホーム
+    Home
   
 
     
@@ -510,7 +510,7 @@
   <span class="md-ellipsis">
     
   
-    学習ガイド
+    Learning Guide
   
 
     
@@ -526,7 +526,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    学習ガイド
+    Learning Guide
   
 
           </label>
@@ -539,14 +539,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../guide/learning-path/" class="md-nav__link">
+      <a href="../../../guide/learning-path/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    学習パス
+    Learning Path
   
 
     
@@ -599,7 +599,7 @@
   <span class="md-ellipsis">
     
   
-    施工図の基礎
+    Shop Drawing Basics
   
 
     
@@ -615,7 +615,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    施工図の基礎
+    Shop Drawing Basics
   
 
           </label>
@@ -628,14 +628,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../shop-drawing/" class="md-nav__link">
+      <a href="../../../shop-drawing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    概要
+    Overview
   
 
     
@@ -656,14 +656,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../shop-drawing/terminology/" class="md-nav__link">
+      <a href="../../../shop-drawing/terminology/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    施工図用語集
+    Terminology (50 Terms)
   
 
     
@@ -684,14 +684,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../shop-drawing/reading/" class="md-nav__link">
+      <a href="../../../shop-drawing/reading/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    図面の読み方
+    How to Read Drawings
   
 
     
@@ -712,14 +712,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../shop-drawing/types/" class="md-nav__link">
+      <a href="../../../shop-drawing/types/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    施工図の種類
+    Types of Shop Drawings
   
 
     
@@ -744,35 +744,38 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    施工BIM
+    Construction BIM
   
 
     
@@ -783,12 +786,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
-    施工BIM
+    Construction BIM
   
 
           </label>
@@ -801,14 +804,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/overview/" class="md-nav__link">
+      <a href="../../overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    全体像
+    Overview
   
 
     
@@ -826,35 +829,38 @@
                 
   
   
+    
   
   
+  
     
     
     
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
         
           
+          
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    BIM活用レシピ
+    BIM Recipes
   
 
     
@@ -865,12 +871,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             
   
-    BIM活用レシピ
+    BIM Recipes
   
 
           </label>
@@ -883,14 +889,294 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/recipes/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    レシピ一覧
+    Recipe List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Check
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-shop-drawing-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Prerequisites (Shop Drawing Knowledge)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illustrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Illustrations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-points-instructors-must-mention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👨‍🏫 5 Points Instructors Must Mention
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Implementation Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Implementation Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-create-structural-bim-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Create Structural BIM Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-execute-clash-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Execute Clash Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-classify-problems-and-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Classify Problems and Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-hold-coordination-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Hold Coordination Meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructor-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Instructor Notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Instructor Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teaching-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Teaching Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-questions-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Questions &amp; Answers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❓ Quiz
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 Related Pages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sleeve-check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sleeve Check
   
 
     
@@ -911,14 +1197,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/recipes/structure-check/" class="md-nav__link">
+      <a href="../rebar-coordination/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    躯体図チェック
+    Rebar Coordination
   
 
     
@@ -939,14 +1225,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/recipes/sleeve-check/" class="md-nav__link">
+      <a href="../steel-secondary/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    スリーブチェック
+    Steel Secondary Members
   
 
     
@@ -967,14 +1253,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/recipes/rebar-coordination/" class="md-nav__link">
+      <a href="../mep-routing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    鉄筋納まりチェック
+    MEP Routing
   
 
     
@@ -995,70 +1281,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../bim/recipes/steel-secondary/" class="md-nav__link">
+      <a href="../temp-planning/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    鉄骨二次部材チェック
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../bim/recipes/mep-routing/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    設備配管ルート検討
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../bim/recipes/temp-planning/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    仮設計画検討
+    Temporary Planning
   
 
     
@@ -1119,7 +1349,7 @@
   <span class="md-ellipsis">
     
   
-    NG事例集
+    Failure Cases
   
 
     
@@ -1135,7 +1365,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    NG事例集
+    Failure Cases
   
 
           </label>
@@ -1148,14 +1378,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../ng/" class="md-nav__link">
+      <a href="../../../ng/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    概要
+    Overview
   
 
     
@@ -1176,14 +1406,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../ng/common-mistakes/" class="md-nav__link">
+      <a href="../../../ng/common-mistakes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    よくある失敗事例
+    Common Mistakes
   
 
     
@@ -1208,44 +1438,17 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    用語集
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    用語集
+    Glossary
   
 
     
@@ -1254,231 +1457,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目次">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目次
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔤 検索とフィルタ
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📚 施工図関連用語
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 施工図関連用語">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        躯体（くたい）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        納まり（おさまり）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        干渉（かんしょう）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        通り芯（とおりしん）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        FL（エフエル）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GL（ジーエル）
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bim" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🏗️ BIM関連用語
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🏗️ BIM関連用語">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#bim_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        BIM
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        干渉チェック
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lod" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LOD
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ifc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        IFC
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔧 工事関連用語
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔧 工事関連用語">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        スリーブ
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        配筋（はいきん）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        かぶり厚さ
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1490,14 +1468,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../instructor/guide/" class="md-nav__link">
+      <a href="../../../instructor/guide/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    講師用
+    For Instructors
   
 
     
@@ -1523,7 +1501,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="目次">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -1532,15 +1510,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目次
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🔤 検索とフィルタ
+        📋 Overview
       
     </span>
   </a>
@@ -1548,22 +1526,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#prerequisites-shop-drawing-knowledge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📚 施工図関連用語
+        🔍 Prerequisites (Shop Drawing Knowledge)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📚 施工図関連用語">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#illustrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Illustrations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-points-instructors-must-mention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👨‍🏫 5 Points Instructors Must Mention
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Implementation Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Implementation Steps">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#step-1-create-structural-bim-model" class="md-nav__link">
     <span class="md-ellipsis">
       
-        躯体（くたい）
+        Step 1: Create Structural BIM Model
       
     </span>
   </a>
@@ -1571,10 +1582,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#step-2-execute-clash-detection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        納まり（おさまり）
+        Step 2: Execute Clash Detection
       
     </span>
   </a>
@@ -1582,10 +1593,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#step-3-classify-problems-and-solutions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        干渉（かんしょう）
+        Step 3: Classify Problems and Solutions
       
     </span>
   </a>
@@ -1593,32 +1604,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#step-4-hold-coordination-meeting" class="md-nav__link">
     <span class="md-ellipsis">
       
-        通り芯（とおりしん）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        FL（エフエル）
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GL（ジーエル）
+        Step 4: Hold Coordination Meeting
       
     </span>
   </a>
@@ -1631,22 +1620,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bim" class="md-nav__link">
+  <a href="#instructor-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🏗️ BIM関連用語
+        💡 Instructor Notes
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🏗️ BIM関連用語">
+    <nav class="md-nav" aria-label="💡 Instructor Notes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#bim_1" class="md-nav__link">
+  <a href="#teaching-tips" class="md-nav__link">
     <span class="md-ellipsis">
       
-        BIM
+        Teaching Tips
       
     </span>
   </a>
@@ -1654,32 +1643,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#common-questions-answers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        干渉チェック
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lod" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LOD
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ifc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        IFC
+        Common Questions &amp; Answers
       
     </span>
   </a>
@@ -1692,52 +1659,35 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#quiz" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🔧 工事関連用語
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔧 工事関連用語">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        スリーブ
+        ❓ Quiz
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#related-pages" class="md-nav__link">
     <span class="md-ellipsis">
       
-        配筋（はいきん）
+        🔗 Related Pages
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        かぶり厚さ
+        📚 References
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1762,14 +1712,21 @@
       
       
       
-        <span class="md-tag">日英対訳</span>
+        <span class="md-tag">BIM Application</span>
       
     
       
       
       
       
-        <span class="md-tag">用語集</span>
+        <span class="md-tag">Clash Detection</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Structure</span>
       
     
   </nav>
@@ -1779,57 +1736,219 @@
   
 
 
-<h1 id="_1">用語集<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>施工BIMを学ぶ上で重要な用語を日本語・英語で解説します。</p>
-<h2 id="_2">🔤 検索とフィルタ<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h1 id="structure-check-bim-recipe">Structure Check - BIM Recipe<a class="headerlink" href="#structure-check-bim-recipe" title="Permanent link">&para;</a></h1>
+<h2 id="overview">📋 Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>Check interference and fit of structural members (columns, beams, slabs) using BIM</p>
 <ul>
-<li><strong>カテゴリ</strong>: 施工図 | BIM | 工事種別 | ソフトウェア</li>
-<li><strong>言語</strong>: 日本語 → English（ミャンマー語は今後追加予定）</li>
+<li><strong>Purpose</strong>: Detect interference between structural members in advance and ensure constructability</li>
+<li><strong>Phase</strong>: After shop drawing creation, before formwork construction</li>
+<li><strong>Person in charge</strong>: General contractor (construction management) + structural subcontractor</li>
+<li><strong>Time required</strong>: 2-4 hours per floor</li>
 </ul>
-<h2 id="_3">📚 施工図関連用語<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">躯体（くたい）<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Structure / Structural Frame</p>
-<p>建物の骨組み。柱・梁・スラブなど構造を支える部分。</p>
-<h3 id="_5">納まり（おさまり）<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Detail / Coordination / Interface</p>
-<p>部材同士が適切に取り合うこと。干渉なく組み上がる状態。</p>
-<h3 id="_6">干渉（かんしょう）<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Clash / Interference / Conflict</p>
-<p>部材同士がぶつかること。物理的に同じ空間を占有する状態。</p>
-<h3 id="_7">通り芯（とおりしん）<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Grid Line / Structure Line</p>
-<p>建物の基準となる線。X1, Y1のように表記。</p>
-<h3 id="fl">FL（エフエル）<a class="headerlink" href="#fl" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Floor Level</p>
-<p>各階の床仕上げ面の高さ基準。</p>
-<h3 id="gl">GL（ジーエル）<a class="headerlink" href="#gl" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Ground Level</p>
-<p>地盤面の高さ基準。建物外部の基準点。</p>
-<h2 id="bim">🏗️ BIM関連用語<a class="headerlink" href="#bim" title="Permanent link">&para;</a></h2>
-<h3 id="bim_1">BIM<a class="headerlink" href="#bim_1" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Building Information Modeling</p>
-<p>建物の情報をデジタルモデル化する手法。</p>
-<h3 id="_8">干渉チェック<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Clash Detection</p>
-<p>BIMモデル上で部材の衝突を検出する機能。</p>
-<h3 id="lod">LOD<a class="headerlink" href="#lod" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Level of Development / Level of Detail</p>
-<p>BIMモデルの詳細度レベル。100～500まである。</p>
-<h3 id="ifc">IFC<a class="headerlink" href="#ifc" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Industry Foundation Classes</p>
-<p>BIMデータの国際標準フォーマット。</p>
-<h2 id="_9">🔧 工事関連用語<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
-<h3 id="_10">スリーブ<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Sleeve / Core Hole</p>
-<p>躯体を貫通する配管用の穴、または筒状の部材。</p>
-<h3 id="_11">配筋（はいきん）<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Rebar Arrangement / Reinforcement</p>
-<p>鉄筋を配置すること、または配置された状態。</p>
-<h3 id="_12">かぶり厚さ<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
-<p><strong>English</strong>: Concrete Cover</p>
-<p>コンクリート表面から鉄筋までの厚さ。</p>
-<hr />
-<p><em>※ より詳細な用語集は順次追加予定</em></p>
+<h2 id="prerequisites-shop-drawing-knowledge">🔍 Prerequisites (Shop Drawing Knowledge)<a class="headerlink" href="#prerequisites-shop-drawing-knowledge" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Shop Drawing Understanding is Essential</p>
+<p>The following shop drawing knowledge is required:</p>
+</div>
+<ul>
+<li><strong>Structural shop drawing</strong>: Detailed drawings showing positions and dimensions of structural members</li>
+<li><strong>Column, beam, slab</strong>: Main structural members</li>
+<li><strong>Formwork</strong>: Temporary molds for pouring concrete</li>
+<li><strong>Rebar</strong>: Steel bars embedded in concrete for reinforcement</li>
+<li><strong>Slab thickness</strong>: Thickness of floors/roofs</li>
+<li><strong>Interference</strong>: When members overlap or collide</li>
+</ul>
+<h2 id="illustrations">📊 Illustrations<a class="headerlink" href="#illustrations" title="Permanent link">&para;</a></h2>
+<div class="image-wrapper">
+  <img src="../../assets/images/pdfs/施工BIM③/page_007.png" alt="Structure check example" class="zoomable">
+  <p class="caption">Figure 1: Structural interference check in BIM model (Source: Construction BIM③)</p>
+</div>
+
+<h2 id="5-points-instructors-must-mention">👨‍🏫 5 Points Instructors Must Mention<a class="headerlink" href="#5-points-instructors-must-mention" title="Permanent link">&para;</a></h2>
+<div class="instructor-checklist">
+
+### 1️⃣ Phase
+After structural shop drawing approval, before formwork construction (fixes before construction start)
+
+### 2️⃣ Whose Job
+- **General contractor**: Execute clash detection, hold coordination meetings
+- **Structural subcontractor**: Consider constructability, judgment on formwork assembly
+- **Rebar subcontractor**: Consider rebar placement
+
+### 3️⃣ What to Determine
+- Presence of structural interference
+- Formwork assembly sequence
+- Space for rebar placement
+- Constructability of complex shapes
+
+### 4️⃣ Relationship with Shop Drawings
+- **Structural shop drawing**: Obtain member positions and dimensions
+- **Rebar shop drawing**: Check rebar arrangement space
+- **Formwork plan**: Verify formwork assembly sequence
+
+### 5️⃣ What Happens If Not Done
+- Formwork cannot be assembled on site
+- Concrete cannot be poured
+- Major rework after concrete pouring
+- Significant schedule delays (weeks~months)
+
+</div>
+
+<h2 id="implementation-steps">🚀 Implementation Steps<a class="headerlink" href="#implementation-steps" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-create-structural-bim-model">Step 1: Create Structural BIM Model<a class="headerlink" href="#step-1-create-structural-bim-model" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph LR
+    A[Check shop drawings] --&gt; B[Place columns in BIM]
+    B --&gt; C[Place beams]
+    C --&gt; D[Place slabs]
+    D --&gt; E[Set accurate dimensions]</code></pre>
+<ol>
+<li><strong>Read structural shop drawings</strong></li>
+<li>Member positions (grid lines)</li>
+<li>Member dimensions (column/beam cross-sections, slab thickness)</li>
+<li>
+<p>Opening positions (windows, doors)</p>
+</li>
+<li>
+<p><strong>Place members in BIM</strong></p>
+</li>
+<li>Columns → Beams → Slabs in order</li>
+<li>Set accurate dimensions (millimeter precision)</li>
+</ol>
+<h3 id="step-2-execute-clash-detection">Step 2: Execute Clash Detection<a class="headerlink" href="#step-2-execute-clash-detection" title="Permanent link">&para;</a></h3>
+<div class="step-box">
+
+**Check items**:
+
+- ✅ Interference between structural members (beam-to-beam, column-to-beam)
+- ✅ Complex shapes (curved walls, inclined members)
+- ✅ Opening positions (windows, doors)
+- ✅ Formwork assembly space
+- ✅ Rebar placement space
+
+</div>
+
+<h3 id="step-3-classify-problems-and-solutions">Step 3: Classify Problems and Solutions<a class="headerlink" href="#step-3-classify-problems-and-solutions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Clash Level</th>
+<th>Situation</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔴 Critical</td>
+<td>Members physically interfere, construction impossible</td>
+<td>Design change required</td>
+</tr>
+<tr>
+<td>🟡 Moderate</td>
+<td>Construction difficult, may affect quality</td>
+<td>Change construction sequence, adjust formwork plan</td>
+</tr>
+<tr>
+<td>🟢 Minor</td>
+<td>Constructible but requires attention</td>
+<td>Document as construction notes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-4-hold-coordination-meeting">Step 4: Hold Coordination Meeting<a class="headerlink" href="#step-4-hold-coordination-meeting" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Participants</strong>: General contractor, structural contractor, rebar contractor, designer (if needed)</li>
+<li><strong>Agenda</strong>: Solutions for interference, approval of modifications</li>
+<li><strong>Deliverables</strong>: Updated shop drawings, construction procedure manuals</li>
+</ul>
+<h2 id="instructor-notes">💡 Instructor Notes<a class="headerlink" href="#instructor-notes" title="Permanent link">&para;</a></h2>
+<h3 id="teaching-tips">Teaching Tips<a class="headerlink" href="#teaching-tips" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Emphasize "3D thinking for structure"</strong></li>
+<li>2D drawings don't show all interferences</li>
+<li>
+<p>Complex joints are especially prone to issues</p>
+</li>
+<li>
+<p><strong>Explain constructability</strong></p>
+</li>
+<li>Not just "no interference" but "can it be built?"</li>
+<li>
+<p>Consider formwork assembly sequence</p>
+</li>
+<li>
+<p><strong>Use actual failure cases</strong></p>
+</li>
+<li>Show photos of "problems found on site"</li>
+<li>Explain "if BIM check had been done..."</li>
+</ol>
+<h3 id="common-questions-answers">Common Questions &amp; Answers<a class="headerlink" href="#common-questions-answers" title="Permanent link">&para;</a></h3>
+<p><strong>Q: Do we need to model all structural members in BIM?</strong></p>
+<p>A: No. Start with complex areas (column-beam joints, curved sections). Full modeling takes too much time.</p>
+<p><strong>Q: What if clashes are detected?</strong></p>
+<p>A: Most can be resolved by adjusting construction sequence or formwork plans. Design changes are only needed for structural safety issues.</p>
+<p><strong>Q: Who creates the structural BIM model?</strong></p>
+<p>A: Usually the general contractor's BIM operator, but sometimes the structural subcontractor. Ability to accurately read shop drawings is essential.</p>
+<h2 id="quiz">❓ Quiz<a class="headerlink" href="#quiz" title="Permanent link">&para;</a></h2>
+<div class="quiz" data-quiz-id="structure-check">
+
+### Q1: What is the primary purpose of structural checks?
+
+- [ ] A. To make drawings look nice
+- [x] B. To detect structural interference in advance
+- [ ] C. To reduce construction costs
+- [ ] D. To create 3D visualizations
+
+**Explanation**: The main purpose is to detect structural interference before construction and ensure constructability.
+
+### Q2: When should structural checks be performed?
+
+- [x] A. After shop drawing creation, before formwork construction
+- [ ] B. After formwork construction
+- [ ] C. After concrete pouring
+- [ ] D. Anytime is fine
+
+**Explanation**: Must be done before formwork construction. Post-construction fixes are very costly.
+
+### Q3: What are the "5 Points" instructors must mention?
+
+- [ ] A. Phase, person, budget, schedule, quality
+- [x] B. Phase, whose job, what to determine, relationship with shop drawings, consequences if not done
+- [ ] C. Phase, method, tools, cost, effect
+- [ ] D. Phase, location, time, participants, results
+
+**Explanation**: The 5 points are: phase, whose job, what to determine, relationship with shop drawings, consequences if not done.
+
+### Q4: What happens if structural interference is found after concrete pouring?
+
+- [ ] A. Just drill holes
+- [ ] B. No problem, can fix later
+- [x] C. Very costly rework, possibly requiring structural reinforcement
+- [ ] D. Nothing happens
+
+**Explanation**: Post-concrete fixes are very expensive and may require structural reinforcement.
+
+### Q5: The optimal LOD for structural BIM models during construction is?
+
+- [ ] A. LOD 100
+- [ ] B. LOD 200
+- [x] C. LOD 300-400
+- [ ] D. LOD 500
+
+**Explanation**: LOD 300-400 is suitable for construction stage. LOD 100-200 is too rough, LOD 500 is too detailed.
+
+</div>
+
+<h2 id="related-pages">🔗 Related Pages<a class="headerlink" href="#related-pages" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../sleeve-check/">Sleeve Check</a> - Check MEP penetrations</li>
+<li><a href="../rebar-coordination/">Rebar Coordination</a> - Check rebar fit</li>
+<li><a href="../../../shop-drawing/">Shop Drawing Basics</a> - Learn to read shop drawings</li>
+</ul>
+<h2 id="references">📚 References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Architectural Standard Specification (JASS 5 Reinforced Concrete Work)</li>
+<li>BIM Utilization Guidelines (Ministry of Land, Infrastructure, Transport and Tourism)</li>
+</ul>
 
 
 
@@ -1858,7 +1977,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  ページトップへ戻る
+  Back to top
 </button>
         
       </main>
@@ -1910,14 +2029,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../assets/js/image-zoom.js"></script>
+        <script src="../../../../assets/js/image-zoom.js"></script>
       
-        <script src="../assets/js/quiz.js"></script>
+        <script src="../../../../assets/js/quiz.js"></script>
       
     
   </body>

@@ -1,43 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/bim/overview/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/overview/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/overview/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/sleeve-check/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/mep-routing/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/mep-routing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/mep-routing/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/structure-check/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/rebar-coordination/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/rebar-coordination/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/rebar-coordination/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/glossary/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/sleeve-check/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/sleeve-check/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/sleeve-check/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/guide/learning-path/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/steel-secondary/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/steel-secondary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/steel-secondary/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/instructor/guide/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/structure-check/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/structure-check/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/structure-check/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/ng/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/bim/recipes/temp-planning/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/temp-planning/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/temp-planning/"/>
     </url>
     <url>
-         <loc>https://bmwz376-cmd.github.io/-BIM-/shop-drawing/</loc>
-         <lastmod>2025-12-31</lastmod>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/glossary/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/glossary/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/guide/learning-path/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/guide/learning-path/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/guide/learning-path/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/instructor/guide/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/instructor/guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/instructor/guide/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/ng/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/ng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/ng/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/ng/common-mistakes/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/ng/common-mistakes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/ng/common-mistakes/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/shop-drawing/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/shop-drawing/reading/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/reading/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/reading/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/shop-drawing/terminology/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/terminology/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/terminology/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/shop-drawing/types/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/types/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/overview/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/overview/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/overview/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/mep-routing/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/mep-routing/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/mep-routing/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/rebar-coordination/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/rebar-coordination/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/rebar-coordination/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/sleeve-check/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/sleeve-check/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/sleeve-check/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/steel-secondary/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/steel-secondary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/steel-secondary/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/structure-check/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/structure-check/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/structure-check/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/temp-planning/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/bim/recipes/temp-planning/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/bim/recipes/temp-planning/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/glossary/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/glossary/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/guide/learning-path/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/guide/learning-path/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/guide/learning-path/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/instructor/guide/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/instructor/guide/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/instructor/guide/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/ng/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/ng/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/ng/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/ng/common-mistakes/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/ng/common-mistakes/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/ng/common-mistakes/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/reading/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/reading/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/reading/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/terminology/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/terminology/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/terminology/"/>
+    </url>
+    <url>
+        <loc>https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/types/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bmwz376-cmd.github.io/-BIM-/en/shop-drawing/types/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://bmwz376-cmd.github.io/-BIM-/shop-drawing/types/"/>
     </url>
 </urlset>
