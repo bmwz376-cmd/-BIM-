@@ -158,5 +158,5 @@ BIMモデル上でスリーブを配置：
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="structure-check/" class="md-button">← 前のレシピ</a>
-  <a href="rebar-coordination/" class="md-button md-button--primary">次のレシピ →</a>
+  <a href="index/" class="md-button md-button--primary">レシピ一覧に戻る</a>
 </div>

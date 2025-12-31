@@ -23,21 +23,21 @@
 あなたの立場に合わせた学習ルートを選んでください。
 
 <div class="learning-route-grid">
-  <div class="route-card" onclick="location.href='guide/routes/#beginner'">
+  <div class="route-card" onclick="location.href='guide/learning-path/#beginner'">
     <div class="icon">🌱</div>
     <h3>初学者ルート</h3>
     <p>施工図もBIMも初めての方向け</p>
     <p><strong>期間:</strong> 8-12週間</p>
   </div>
 
-  <div class="route-card" onclick="location.href='guide/routes/#construction-manager'">
+  <div class="route-card" onclick="location.href='guide/learning-path/#construction-manager'">
     <div class="icon">👷</div>
     <h3>施工管理者ルート</h3>
     <p>施工図は分かるがBIMは初めての方向け</p>
     <p><strong>期間:</strong> 4-6週間</p>
   </div>
 
-  <div class="route-card" onclick="location.href='guide/routes/#bim-operator'">
+  <div class="route-card" onclick="location.href='guide/learning-path/#bim-operator'">
     <div class="icon">💻</div>
     <h3>BIMオペレータールート</h3>
     <p>BIMソフトは使えるが日本の施工図に不慣れな方向け</p>
@@ -99,20 +99,13 @@ graph LR
 ### 5. [用語集](glossary/index.md)
 日本語・英語対訳の施工BIM用語集
 
-### 6. [テンプレート](templates/index.md)
-実務で使える各種テンプレート
-
-- 議事録
-- 指摘票
-- モデル受領チェックリスト
-
-### 7. [講師用ガイド](instructor/guide.md)
+### 6. [講師用ガイド](instructor/guide.md)
 講師が教える際のポイントと運用方法
 
 ## 🚀 今すぐ始める
 
 1. **[学習ガイド](guide/learning-path.md)** で全体像を把握
-2. **[あなたに合った学習ルート](guide/routes.md)** を選択
+2. **[あなたに合った学習ルート](guide/learning-path.md#_3)** を選択
 3. **[施工図の基礎](shop-drawing/index.md)** から学習開始
 
 ## 📊 学習の進め方

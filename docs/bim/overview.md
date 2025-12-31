@@ -145,19 +145,19 @@ BIMモデルの詳細度レベル：
 ## 🔗 次のステップ
 
 <div class="learning-route-grid">
-  <div class="route-card" onclick="location.href='phase-map/'">
-    <h3>工程別活用マップ</h3>
-    <p>各工程でどうBIMを使うか詳細に学ぶ</p>
-  </div>
-
   <div class="route-card" onclick="location.href='recipes/'">
     <h3>BIM活用レシピ</h3>
     <p>具体的な活用方法を実践的に学ぶ</p>
   </div>
 
-  <div class="route-card" onclick="location.href='data-exchange/'">
-    <h3>データ連携</h3>
-    <p>BIMデータの受け渡し方法を学ぶ</p>
+  <div class="route-card" onclick="location.href='../ng/'">
+    <h3>NG事例集</h3>
+    <p>よくある失敗から学ぶ</p>
+  </div>
+
+  <div class="route-card" onclick="location.href='../glossary/'">
+    <h3>用語集</h3>
+    <p>施工BIM用語を確認</p>
   </div>
 </div>
 

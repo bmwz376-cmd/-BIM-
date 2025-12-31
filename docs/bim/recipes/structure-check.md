@@ -174,8 +174,7 @@ BIMソフトの干渉チェック機能を使用：
 ## 🔗 関連レシピ
 
 - [スリーブチェック](sleeve-check.md) - 設備貫通孔の確認
-- [鉄筋納まり検討](rebar-coordination.md) - 詳細な鉄筋配置の検討
-- [鉄骨二次部材調整](steel-secondary.md) - S造の場合
+- [BIM活用レシピ一覧](index.md) - その他のレシピ
 
 ---
 
